@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/eat_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="100dp"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/slider_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:text="Heading"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/slider_description"
+        android:padding="35dp"
+        android:textColor="@color/colorTransparentWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Lorem ipsum sativum. All the basic terminology is taken care of. This is eating area and you can have anything you want" />
+
+</RelativeLayout>
